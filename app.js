@@ -129,7 +129,7 @@ function showItem(id) {
     <h2>${i.name}</h2>
     <p>タイプ: ${i.type || "="}</p>
     <p>クラス制限: ${i.class?.length ? i.class.join(", ") : "-"}</p>
-    <p>装備部位: ${i.slot || "="}</p>
+    <p>装備部位: ${i.slot || "="}</p><a>    </a><p>射程: ${i.range || "="}</p>
     <p>LV: ${i.lv || 1}</p>
     <p>重量: ${i.weight || "="}</p>
   </div>

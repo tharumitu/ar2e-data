@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>TRPG支援ツール</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>TRPG支援ツール</h1>
+
+<!-- タブ -->
+<div id="tabs">
+  <button onclick="switchTab('items')">アイテム</button>
+  <button onclick="switchTab('materials')">素材</button>
+  <button onclick="switchTab('monsters')">モンスター</button>
+</div>
+
+<!-- 検索 -->
+<div id="searchBox">
+  <input type="text" id="searchInput" placeholder="フリーワード検索（AND可）">
+
+  <div id="filters">
+    <input type="text" id="filter_name" placeholder="名前">
+
+    <!-- 共通 -->
+    <input type="number" id="filter_lv" placeholder="LV">
+    <input type="number" id="filter_weight" placeholder="重量">
+
+    <!-- アイテム用 -->
+    <input type="number" id="filter_attack" placeholder="攻撃力">
+    <input type="number" id="filter_hit" placeholder="命中">
+    <input type="number" id="filter_dodge" placeholder="回避">
+    <input type="number" id="filter_pdef" placeholder="物防">
+    <input type="number" id="filter_mdef" placeholder="魔防">
+    <input type="number" id="filter_action" placeholder="行動">
+    <input type="number" id="filter_move" placeholder="移動">
+
+    <!-- モンスター用 -->
+    <input type="text" id="filter_element" placeholder="属性">
+    <input type="number" id="filter_hp" placeholder="HP">
+  </div>
+
+  <button onclick="doSearch()">検索</button>
+</div>
+
+<!-- メイン -->
+<div id="main">
+  <div id="list"></div>
+  <div id="detail">詳細表示</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

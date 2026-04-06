@@ -1,0 +1,63 @@
+[
+  {
+    "id": "item_shield_02",
+    "name": "タワーシールド",
+    "type": "盾",
+    "slot": "片手",
+    "lv": 3,
+    "weight": 5,
+    "dodge": -1,
+    "pdef": 7,
+    "mdef": 1,
+    "lore": "大型で強固な防御を誇る盾。",
+    "price": 400
+  },
+  {
+    "id": "item_head_02",
+    "name": "アイアンヘルム",
+    "type": "防具",
+    "slot": "頭部",
+    "lv": 3,
+    "weight": 3,
+    "pdef": 3,
+    "mdef": 1,
+    "lore": "金属製で防御力を高めた兜。",
+    "price": 250
+  },
+  {
+    "id": "item_body_02",
+    "name": "チェインメイル",
+    "type": "防具",
+    "slot": "胴部",
+    "lv": 3,
+    "weight": 7,
+    "pdef": 8,
+    "mdef": 2,
+    "dodge": -1,
+    "lore": "鎖帷子による高い防御力を持つ鎧。",
+    "price": 600
+  },
+  {
+    "id": "item_sub_02",
+    "name": "ストライクガントレット",
+    "type": "補助防具",
+    "slot": "補助防具",
+    "lv": 3,
+    "weight": 2,
+    "pdef": 2,
+    "effect": "武器攻撃のダメージ+2",
+    "lore": "攻撃性能を強化する戦闘用手甲。",
+    "price": 400
+  },
+  {
+    "id": "item_acc_02",
+    "name": "アルカナリング",
+    "type": "装身具",
+    "slot": "装身具",
+    "lv": 3,
+    "weight": 1,
+    "effect": "魔法攻撃のダメージ+3",
+    "lore": "魔力を極限まで引き出す指輪。",
+    "price": 700
+  }
+]

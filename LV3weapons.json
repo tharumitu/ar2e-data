@@ -1,0 +1,144 @@
+[
+  {
+    "id": "item_lsword_02",
+    "name": "ソルジャーブレード",
+    "type": "長剣",
+    "slot": "片手",
+    "lv": 3,
+    "weight": 6,
+    "hit": 0,
+    "attack": 11,
+    "action": -3,
+    "range": "至近",
+    "lore": "実戦で鍛えられた高性能な剣。",
+    "price": 450,
+    "recipe": [
+      { "id": "mat_beast_fang", "count": 2 },
+      { "id": "mat_hard_bone", "count": 1 }
+    ]
+  },
+  {
+    "id": "item_gsword_02",
+    "name": "バスターブレイカー",
+    "type": "両手剣",
+    "slot": "両手",
+    "lv": 3,
+    "weight": 11,
+    "hit": -1,
+    "attack": 16,
+    "action": -4,
+    "range": "至近",
+    "effect": "クリティカル時ダメージ+2D",
+    "lore": "鎧を叩き割るための巨大剣。",
+    "price": 650,
+    "recipe": [
+      { "id": "mat_hard_bone", "count": 2 },
+      { "id": "mat_golem_core", "count": 1 }
+    ]
+  },
+  {
+    "id": "item_ssward_02",
+    "name": "シャドウダガー",
+    "type": "短剣",
+    "slot": "片手",
+    "lv": 3,
+    "weight": 3,
+    "hit": 0,
+    "attack": 6,
+    "action": 0,
+    "range": "至近",
+    "lore": "月光下で静かに獲物を仕留める短剣。",
+    "price": 400,
+    "recipe": [
+      { "id": "mat_beast_fang", "count": 1 },
+      { "id": "mat_magic_dust", "count": 2 }
+    ]
+  },
+  {
+    "id": "item_axe_02",
+    "name": "アイアンバトルアックス",
+    "type": "斧",
+    "slot": "両手",
+    "lv": 3,
+    "weight": 10,
+    "hit": -1, 
+    "attack": 14,
+    "action": -4,
+    "range": "至近",
+    "lore": "重厚な鉄製の戦斧。強力な一撃を放つ。",
+    "price": 550,
+    "recipe": [
+      { "id": "mat_hard_bone", "count": 2 },
+      { "id": "mat_beast_fang", "count": 1 }
+    ]
+  },
+  {
+    "id": "item_spear_02",
+    "name": "ランスオブホープ",
+    "type": "槍",
+    "slot": "両手",
+    "lv": 3,
+    "weight": 9,
+    "hit": 0,
+    "attack": 10,
+    "action": -3,
+    "range": "3m",
+    "lore": "希望の象徴とされる槍。遠距離から攻撃可能。",
+    "price": 500,
+    "recipe": [
+      { "id": "mat_beast_fang", "count": 1 },
+      { "id": "mat_hard_bone", "count": 2 }
+    ]
+  },
+  {
+    "id": "item_staff_02",
+    "name": "ルーンスタッフ",
+    "type": "打撃",
+    "slot": "両手",
+    "lv": 3,
+    "weight": 5,
+    "attack": 9,
+    "action": -2,
+    "range": "至近",
+    "effect": "MP消費-1",
+    "lore": "魔力増幅の刻印が施された杖。",
+    "price": 600,
+    "recipe": [
+      { "id": "mat_magic_dust", "count": 3 },
+      { "id": "mat_golem_core", "count": 1 }
+    ]
+  },
+  {
+    "id": "item_bow_02",
+    "name": "スナイプボウ",
+    "type": "弓",
+    "slot": "両手",
+    "lv": 3,
+    "weight": 7,
+    "hit": 1,
+    "attack": 12,
+    "action": -5,
+    "range": "35m",
+    "lore": "狙撃性能を極めた弓。",
+    "price": 580,
+    "recipe": [
+      { "id": "mat_beast_fang", "count": 2 },
+      { "id": "mat_magic_dust", "count": 1 }
+    ]
+  },
+  {
+    "id": "item_katana_02",
+    "name": "影打",
+    "type": "刀",
+    "slot": "片手",
+    "lv": 3,
+    "weight": 6,
+    "hit": -1,
+    "attack": 12,
+    "action": -1,
+    "range": "至近",
+    "effect": "クリティカル時、さらに+1Dダメージ",
+    "lore": "影を断つと伝えられる名刀。",
+    "price": "="
+  }
+]

@@ -1,4 +1,6 @@
 [
     "LV3weapons.json",
-    "LV3armors.json"
+    "LV3armors.json",
+    "basedLV5armors.json",
+    "LV5items.json"
 ]

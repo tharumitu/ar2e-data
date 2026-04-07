@@ -1,0 +1,28 @@
+[
+  {
+    "id": "item_base_helm_05",
+    "name": "強化アイアンヘルム",
+    "type": "防具",
+    "slot": "頭部",
+    "lv": 5,
+    "weight": 4,
+    "pdef": 5,
+    "mdef": 2,
+    "dodge": -1,
+    "lore": "改良された鉄兜。様々な装備の基礎となる。",
+    "price": 600
+  },
+  {
+    "id": "item_base_armor_05",
+    "name": "強化チェインメイル",
+    "type": "防具",
+    "slot": "胴部",
+    "lv": 5,
+    "weight": 9,
+    "pdef": 10,
+    "mdef": 4,
+    "dodge": -2,
+    "lore": "加工精度が上がった鎖鎧。",
+    "price": 900
+  }
+]

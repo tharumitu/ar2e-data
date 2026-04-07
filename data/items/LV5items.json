@@ -1,0 +1,403 @@
+[
+  {
+    "id": "tank_weapon",
+    "name": "ガーディアンブレイカー",
+    "type": "両手剣",
+    "slot": "両",
+    "lv": 5,
+    "weight": 14,
+    "hit": -1,
+    "attack": 22,
+    "pdef": 4,
+    "action": -3,
+    "move": -2,
+    "range": "至近",
+    "effect": "命中時、味方全体の物理防御+2（3ターン）",
+    "lore": "戦場を切り開く重剣。\n圧倒的な一撃で敵陣を崩す。\n仲間を守るための攻防一体の武器。",
+    "price": 3200,
+    "recipe": [
+      { "id": "item_lv3_greatsword", "count": 1 },
+      { "id": "mat_steel_tooth", "count": 6 },
+      { "id": "mat_steel_shell", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "tank_head",
+    "name": "フォートレスヘルム",
+    "type": "防具",
+    "slot": "頭部",
+    "lv": 5,
+    "weight": 5,
+    "pdef": 8,
+    "mdef": 4,
+    "action": -1,
+    "lore": "鋼殻を加工した堅牢な兜。\n打撃や衝撃に対する耐性が高い。\n重装戦士の標準装備。",
+    "price": 1800,
+    "recipe": [
+      { "id": "item_iron_helm", "count": 1 },
+      { "id": "mat_steel_shell", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "tank_body",
+    "name": "フォートレスチェイン",
+    "type": "防具",
+    "slot": "胴部",
+    "lv": 5,
+    "weight": 12,
+    "pdef": 18,
+    "mdef": 10,
+    "action": -3,
+    "move": -3,
+    "dodge": -2,
+    "effect": "被ダメージ時、確率でダメージ-5",
+    "lore": "重厚な鎖鎧。\n高い耐久力で前線を維持する。\n機動力を犠牲にした防御特化装備。",
+    "price": 4000,
+    "recipe": [
+      { "id": "item_chain_mail", "count": 1 },
+      { "id": "mat_steel_shell", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "tank_sub",
+    "name": "アンカーグリーブ",
+    "type": "補助防具",
+    "slot": "補助防具",
+    "lv": 5,
+    "weight": 4,
+    "pdef": 5,
+    "move": -1,
+    "effect": "ノックバック無効",
+    "lore": "重量のある脚部装備。\n地面に固定されるような安定性を持つ。\n防衛戦で真価を発揮する。",
+    "price": 1500,
+    "recipe": [
+      { "id": "mat_steel_tooth", "count": 3 }
+    ]
+  },
+
+  {
+    "id": "tank_acc",
+    "name": "ガードエンブレム",
+    "type": "装身具",
+    "slot": "装身具",
+    "lv": 5,
+    "weight": 1,
+    "effect": "ヘイト上昇量+20%",
+    "lore": "守護者の証。\n敵の注意を引きつける力を持つ。\nタンクにとって重要な装備。",
+    "price": 2000,
+    "recipe": [
+      { "id": "mat_steel_core", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "thief_weapon_r",
+    "name": "ニュー・ヴォーパル（右）",
+    "type": "短剣",
+    "slot": "片",
+    "lv": 5,
+    "weight": 2,
+    "hit": 3,
+    "attack": 14,
+    "dodge": 2,
+    "action": 2,
+    "move": 2,
+    "range": "至近",
+    "effect": "クリティカル時追加2Dダメージ",
+    "lore": "鋭利な片刃短剣。\n急所攻撃に特化した設計。\n素早い連撃に適する。",
+    "price": 2600,
+    "recipe": [
+      { "id": "mat_griffon_claw", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "thief_weapon_l",
+    "name": "ニュー・ヴォーパル（左）",
+    "type": "短剣",
+    "slot": "片",
+    "lv": 5,
+    "weight": 2,
+    "hit": 3,
+    "attack": 14,
+    "dodge": 2,
+    "action": 2,
+    "move": 2,
+    "range": "至近",
+    "effect": "クリティカル時、回避-2付与",
+    "lore": "対となる短剣。\n敵の体勢を崩すことに特化。\n連携によって真価を発揮する。",
+    "price": 2600,
+    "recipe": [
+      { "id": "mat_barad_eye", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "thief_head",
+    "name": "シャドウフード",
+    "type": "防具",
+    "slot": "頭部",
+    "lv": 5,
+    "weight": 1,
+    "dodge": 2,
+    "action": 1,
+    "lore": "暗闇に溶け込むフード。\n視認性を低下させる。\n隠密行動に最適。",
+    "price": 1200,
+    "recipe": [
+      { "id": "mat_barad_wing", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "thief_body",
+    "name": "ナイトスキン",
+    "type": "防具",
+    "slot": "胴部",
+    "lv": 5,
+    "weight": 4,
+    "dodge": 4,
+    "action": 2,
+    "lore": "軽量な戦闘服。\n防御を捨て回避に特化。\n暗殺任務に適する。",
+    "price": 2200,
+    "recipe": [
+      { "id": "mat_griffon_hide", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "mage_weapon",
+    "name": "アルカナスタッフ",
+    "type": "杖",
+    "slot": "両",
+    "lv": 5,
+    "weight": 5,
+    "attack": 10,
+    "mdef": 8,
+    "action": -1,
+    "range": "至近",
+    "effect": "魔術判定+2、MP消費-2",
+    "lore": "精霊核を組み込んだ魔術杖。\n魔力の流れを安定させる構造を持つ。\n熟練魔術師にとっては必携の品。",
+    "price": 3200,
+    "recipe": [
+      { "id": "item_lv3_staff", "count": 1 },
+      { "id": "mat_sylph_core", "count": 2 },
+      { "id": "mat_sylph_powder", "count": 3 }
+    ]
+  },
+
+  {
+    "id": "mage_head",
+    "name": "ウィズダムフード",
+    "type": "防具",
+    "slot": "頭部",
+    "lv": 5,
+    "weight": 2,
+    "mdef": 5,
+    "action": 1,
+    "lore": "魔力を集約するためのフード。\n思考をクリアに保つ効果がある。\n長時間の詠唱にも耐えうる設計。",
+    "price": 1500,
+    "recipe": [
+      { "id": "mat_sylph_powder", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "mage_body",
+    "name": "アストラルローブ",
+    "type": "防具",
+    "slot": "胴部",
+    "lv": 5,
+    "weight": 6,
+    "pdef": 6,
+    "mdef": 12,
+    "action": -1,
+    "effect": "魔法ダメージ+1D",
+    "lore": "魔力を帯びた布で作られたローブ。\n外部からの魔力干渉を強化する。\n純粋な魔法戦闘に適した装備。",
+    "price": 3400,
+    "recipe": [
+      { "id": "item_cloth_armor", "count": 1 },
+      { "id": "mat_sylph_core", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "mage_sub",
+    "name": "マナバンド",
+    "type": "補助防具",
+    "slot": "補助防具",
+    "lv": 5,
+    "weight": 1,
+    "effect": "MP消費-1",
+    "lore": "魔力循環を補助する腕輪。\n長期戦において効果を発揮する。\n魔術師の消耗を軽減する装備。",
+    "price": 1800,
+    "recipe": [
+      { "id": "mat_sylph_powder", "count": 3 }
+    ]
+  },
+
+  {
+    "id": "mage_acc",
+    "name": "エーテルチャーム",
+    "type": "装身具",
+    "slot": "装身具",
+    "lv": 5,
+    "weight": 1,
+    "effect": "魔術クリティカル時ダメージ+2D",
+    "lore": "魔力を増幅する護符。\n暴走寸前のエネルギーを制御する。\n一撃の威力を高める装備。",
+    "price": 2600,
+    "recipe": [
+      { "id": "mat_sylph_core", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "ranged_weapon",
+    "name": "ホークアイボウ",
+    "type": "弓",
+    "slot": "両",
+    "lv": 5,
+    "weight": 6,
+    "hit": 2,
+    "attack": 15,
+    "action": 1,
+    "range": "30m",
+    "effect": "クリティカル時追加3Dダメージ",
+    "lore": "猛禽の視界を再現した弓。\n遠距離でも精密射撃が可能。\n狩人に愛される武器。",
+    "price": 2900,
+    "recipe": [
+      { "id": "item_lv3_bow", "count": 1 },
+      { "id": "mat_griffon_feather", "count": 3 }
+    ]
+  },
+
+  {
+    "id": "ranged_head",
+    "name": "スコープゴーグル",
+    "type": "防具",
+    "slot": "頭部",
+    "lv": 5,
+    "weight": 1,
+    "hit": 2,
+    "lore": "遠距離射撃用の補助器具。\n視界を拡張し命中率を高める。\n精密射撃に特化した装備。",
+    "price": 1400,
+    "recipe": [
+      { "id": "mat_barad_eye", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "ranged_body",
+    "name": "スカウトジャケット",
+    "type": "防具",
+    "slot": "胴部",
+    "lv": 5,
+    "weight": 5,
+    "dodge": 2,
+    "action": 1,
+    "lore": "機動力を重視した軽装。\n射撃戦において位置取りを助ける。\nレンジャー向け装備。",
+    "price": 2300,
+    "recipe": [
+      { "id": "mat_barad_wing", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "ranged_sub",
+    "name": "リカバリークイバー",
+    "type": "補助防具",
+    "slot": "補助防具",
+    "lv": 5,
+    "weight": 2,
+    "effect": "幸運判定成功時、矢消費なし（目標値12）",
+    "lore": "矢の消耗を抑える特殊な矢筒。\n資源管理を助ける。\n長距離戦闘で有効。",
+    "price": 2000,
+    "recipe": [
+      { "id": "mat_griffon_feather", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "ranged_acc",
+    "name": "ハンターシグネット",
+    "type": "装身具",
+    "slot": "装身具",
+    "lv": 5,
+    "weight": 1,
+    "effect": "クリティカル時、対象に移動-2付与",
+    "lore": "狩人の証となる指輪。\n獲物を逃がさない力を持つ。\n追撃戦に有効。",
+    "price": 2100,
+    "recipe": [
+      { "id": "mat_magic_dust", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "support_weapon",
+    "name": "セイントブレード",
+    "type": "片手剣",
+    "slot": "片",
+    "lv": 5,
+    "weight": 7,
+    "attack": 14,
+    "mdef": 6,
+    "effect": "攻撃命中時、対象にスタン付与",
+    "lore": "神聖な力を宿す剣。\n敵の動きを封じる力を持つ。\n支援と前衛を両立する武器。",
+    "price": 3000,
+    "recipe": [
+      { "id": "item_lv3_sword", "count": 1 },
+      { "id": "mat_sylph_core", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "support_shield",
+    "name": "セイントシールド",
+    "type": "盾",
+    "slot": "片",
+    "lv": 5,
+    "weight": 6,
+    "pdef": 10,
+    "mdef": 10,
+    "effect": "味方のMP消費-1",
+    "lore": "加護を宿す盾。\n仲間の魔力消費を軽減する。\n支援職に適した防具。",
+    "price": 2600,
+    "recipe": [
+      { "id": "item_lv3_shield", "count": 1 },
+      { "id": "mat_sylph_powder", "count": 2 }
+    ]
+  },
+
+  {
+    "id": "alchemist_head",
+    "name": "リサーチゴーグル",
+    "type": "防具",
+    "slot": "頭部",
+    "lv": 5,
+    "weight": 1,
+    "effect": "錬金術判定+2",
+    "lore": "分析能力を強化する装備。\n細かな変化を見逃さない。\n錬金術師の必需品。",
+    "price": 2000,
+    "recipe": [
+      { "id": "mat_sylph_core", "count": 1 }
+    ]
+  },
+
+  {
+    "id": "alchemist_body",
+    "name": "アルケミストコート",
+    "type": "防具",
+    "slot": "胴部",
+    "lv": 5,
+    "weight": 4,
+    "mdef": 8,
+    "effect": "ポーション効果+50%",
+    "lore": "薬品耐性を持つコート。\n錬金実験にも耐えうる設計。\n支援能力を強化する。",
+    "price": 3000,
+    "recipe": [
+      { "id": "mat_sylph_powder", "count": 3 }
+    ]
+  }
+]
